@@ -44,4 +44,10 @@ public class HesaplamalarTest {
         Assert.assertEquals(200,result);
     }
 
+    @Test
+    public void testKaresiniAl(){
+        int result = Hesaplamalar.karesiniAl(5);
+        Assert.assertEquals(25,result);
+    }
+
 }

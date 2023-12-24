@@ -39,5 +39,9 @@ public class Hesaplamalar {
         return result;
     }
 
+    public static int karesiniAl(int sayi1) {
+        return (sayi1 * sayi1);
+    }
+
 
 }
